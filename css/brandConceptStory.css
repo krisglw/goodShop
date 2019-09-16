@@ -1,0 +1,275 @@
+/*bg*/
+.bg1{
+	padding: 0;
+	border: none;
+}
+@media(max-width: 768px){
+	.container-fluid .kNav{
+	margin-right: 15px;
+	}
+}
+
+.bgBox{
+	width: 100%;
+}
+.bg1 img{
+	width: 100%;
+}
+/*content1*/
+.c1{
+	border: none;
+	height: 100%;
+	padding: 0;
+}
+.c1_box1 h3{
+	font-size: 28px;
+	margin: 20px 0 10px;
+	color: #e1251b;
+
+}
+.c1_box1 p{
+	font-size: 20px;
+	margin: 10px 0 20px;
+	color: #e1251b;
+}
+.content1 span{
+	display: inline-block;
+	font-size: 70px;
+	color: grey;
+}
+.c1_box2{
+	position: relative;
+}
+.c1_img1{
+	float: left;
+}
+.c1_main{
+	/*overflow: hidden;*/
+}
+.c1_box2 .c1_details1{
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	background-color:rgba(225,225,225,0.7);
+	padding: 30px;
+	box-sizing: border-box;
+	color: gray;
+	/*overflow: hidden;*/
+}
+@media(max-width: 768px){
+	.c1_box2 .c1_details1{
+		padding: 10px;
+	}
+}
+.c1_box3 .c1_details2{
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	background-color:rgba(225,225,225,0.7);
+	padding: 30px;
+	box-sizing: border-box;
+	color: gray;
+	/*overflow: hidden;*/
+}
+@media(max-width: 768px){
+	.c1_box3 .c1_details2{
+		padding: 10px;
+	}
+}
+.c1_details1 h2,.c1_details2 h2,.c1_bottom_box h2{
+	font-weight: bold;
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+.c1_details1 h3,.c1_details2 h3,.c1_bottom_box h3{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.c1_details1 p,.c1_details2 p,.c1_bottom_box p{
+	margin-bottom: 10px;	
+}
+.c1_main{
+	position: relative;
+}
+.c1_bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	display: none;
+}
+.c1_img1{
+	overflow: hidden;
+}
+.c1_img1 img{
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+.c1_img1 img:hover{
+	transform: scale(1.1);
+}
+.c1_detailsBox{
+	z-index: 6;
+	position: relative;
+}
+/*c1_bottom_box*/
+.content1 .c1_bottom_box{
+	color: gray;
+	background-color:rgba(225,225,225,0.7);
+	padding: 30px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	height: 345px;
+}
+.c1_p{
+	line-height: 25px;
+	display: none;
+}
+
+/*content2*/
+.content2{
+	margin-top: 50px;
+	position: relative;
+}
+.c2{
+	border: none;
+	padding: 0;
+}
+.c2_box1_left h2{
+	font-size: 26px;
+	color: #e1251b;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.c2_box1_left h3{
+	font-size: 26px;
+	color: #e1251b;
+	margin: 20px 0;
+}
+.story_info{
+	width: 380px;
+	height: 200px;
+	/*margin-left: 140px;*/
+	margin-top: 80px;
+	background-image: url(../images/11.png);
+	/*background-size: 100% 100%;*/
+	background-repeat: no-repeat;
+	/*background-position: 0 -30px;*/
+}
+.story_info_p{
+	width: 370px;
+	height: 60px;
+	font-size: 18px;
+	line-height:35px;
+	letter-spacing: 3px;
+}
+.story_info_p p{
+	margin-top: 20px;
+
+}
+.c2_bg{
+	 right: 0;
+    top: 0;
+    width: 42%;
+    height: 100%;
+    position: absolute;
+    background-color: #f7f7f7;
+
+}
+.c2 .c2_box1_right{
+	margin-top: 70px;
+	padding: 0;
+}
+.c2_img1 img{
+	width: 100%;
+}
+
+/*content3*/
+.content3{
+	margin-top: 50px;
+	position: relative;
+}
+.c3_bg{
+	left: 0;
+	top: 0;
+    width: 42%;
+    height: 100%;
+    position: absolute;
+    background-color: #f7f7f7;
+
+}
+.c3{
+	padding: 0;
+	border: none;
+}
+.c3 .c3_box1_left{
+	background-color: #e1251b;
+	color: #fff;
+	box-sizing: border-box;
+	margin-top: 100px;
+}
+.c3_box1_left h2{
+	margin: 100px 0px 0px 20px;
+	font-size: 26px;
+}
+.c3_box1_left h3{
+	font-size: 60px;
+	opacity: 0.3;
+	margin: 0 20px;
+}
+.c3_box1_left p{
+	margin: 20px 0px 100px 20px;
+	line-height: 35px;
+	font-size: 16px;
+}
+.c3_box1_right{
+	margin-top: 130px;
+}
+.c3_box1_right p{
+	margin-bottom: 50px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+/*content4*/
+.content4{
+	margin-top: 50px;
+	position: relative;
+}
+.c4{
+	padding: 0;
+	border: none;
+}
+.c4_bg{
+	right: 0;
+    top: 0;
+    width: 42%;
+    height: 100%;
+    position: absolute;
+    background-color: #f7f7f7;
+
+}
+.c4_box1_left h2{
+	font-size: 26px;
+	margin-top: 20px;
+	color: #e1251b;
+}
+.c4_box1_left h3{
+	font-size: 50px;
+	opacity: 0.2;
+}
+.c4_box1_left p{
+	margin:20px 0px 20px 0px;
+	line-height: 35px;
+	font-size: 16px;
+}
+.c4_img img{
+	width: 100%;
+}
+.c4 .c4_box1_right{
+	padding: 0;
+}
+.c4_box1_right{
+	margin-top: 130px;
+	margin-left: 20px;
+}

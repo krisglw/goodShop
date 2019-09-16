@@ -1,0 +1,128 @@
+/*anmimate*/
+/*content1*/
+.content1_bottom_left{
+	left: 0;
+	animation: fadeInLeft 1s 0.3s;
+}
+.content1_bottom_right{
+	animation: fadeInRight 1s 0.3s;
+
+}
+@keyframes fadeInLeft{
+	0% {
+        -webkit-transform: translate3d(-80px, 0, 0);
+        opacity: 0;
+        transform: translate3d(-80px, 0, 0)
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        opacity: 1;
+        transform: translateZ(0)
+    }
+}
+@keyframes fadeInRight{
+	0% {
+        -webkit-transform: translate3d(80px, 0, 0);
+        opacity: 0;
+        transform: translate3d(80px, 0, 0)
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        opacity: 1;
+        transform: translateZ(0)
+    }
+}
+.bw1{
+	animation: fadeInLeftWords 2s;
+}
+.bw2{
+	animation: fadeInRightWords 2s;
+}
+@keyframes fadeInLeftWords{
+	from {
+        -webkit-transform: translate3d(80px, 0, 0);
+        opacity: 0;
+        transform: translate3d(80px, 0, 0)
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        opacity: 1;
+        transform: translateZ(0)
+	}
+}
+@keyframes fadeInRightWords{
+	from {
+        -webkit-transform: translate3d(-80px, 0, 0);
+        opacity: 0;
+        transform: translate3d(-80px, 0, 0)
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        opacity: 1;
+        transform: translateZ(0)
+    }
+	
+}
+
+.c1_left{
+	animation: fadeInLeftP 2s;
+}
+.c1_right{
+	animation: fadeInRightP 2s;
+}
+@keyframes fadeInLeftP{
+	0% {
+        -webkit-transform: translate3d(0, 80px, 0);
+        opacity: 0;
+        transform: translate3d( 0,80px, 0)
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        opacity: 1;
+ 	}
+}
+@keyframes fadeInRightP{
+	0% {
+        -webkit-transform: translate3d(0, -80px, 0);
+        opacity: 0;
+        transform: translate3d(0,-80px,  0)
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        opacity: 1;
+        transform: translateZ(0)
+    }
+	
+}
+
+/*content3*/
+.c3_box1{
+    animation: paly 2s;
+}
+.c3_box2{
+    animation: paly 2s 0.4s;
+}
+.c3_box3{
+    animation: paly 2s 0.8s;
+}
+.c3_box4{
+    animation: paly 2s 1.2s;
+}
+@keyframes paly{
+    from{
+         -webkit-transform: translate3d(0,50px,0,);
+        opacity: 0;
+        transform: translate3d(0,50px,0)
+    }
+    to{
+        -webkit-transform: translate3d(0,0,0,);
+        opacity: 1;
+        transform: translate3d(0,0,0)
+    }
+}

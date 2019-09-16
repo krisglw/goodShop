@@ -1,0 +1,156 @@
+/*定义五等分*/
+.bg{
+	padding: 0;
+}
+.bgbox{
+	margin: 0;
+}
+.c_top,.c_content{
+	border: none;
+	padding: 0;
+}
+.c_top h2{
+	font-size: 32px;
+	color: #e1251b;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.c_top h3{
+	font-size: 26px;
+	color: #e1251b;
+	margin-bottom: 30px;
+}
+
+.shopIcon .shopIcon_span{
+	display: inline-block;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 100%;
+	border-radius: 50%;
+	border: 1px solid #e1251b;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+
+}
+.shopIcon_span span{
+	font-size:110px;
+	color: #e1251b;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+
+}
+.shopIcon_span .cion5{
+	top: 44%;
+	left: 53%;
+}
+.shopIcon{
+	position: relative;
+}
+.bg_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+	border-radius: 50%;
+}
+.bg_img {
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+}
+.bg_img img{
+	width: 100%;
+}
+.icon3 br{
+	display: none;
+}
+.col-xs-1-5,.col-sm-1-5,.col-md-1-5,.col-lg-1-5{
+	min-height: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+.col-md-1-5{
+	width: 33.3%;
+	float: left;
+}
+@media(max-width: 768px){
+	.shopIcon_span span{
+		font-size: 50px;
+	}
+}
+@media(min-width: 768px){
+	.col-sm-1-5{
+		width: 33.3%;
+		float: left;
+	}
+	.shopIcon{
+		width: 100%;
+	}
+	.shopIcon .shopIcon_span{
+		width: 100%;
+	}
+	.bg_img img{
+		width: 100%;
+	}
+	.bg_img {
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+}
+@media(min-width: 992px){
+	.col-md-1-5{
+		width: 20%;
+		float: left;
+	}
+	.shopIcon{
+		width: 100%;
+	}
+	.shopIcon .shopIcon_span{
+		width: 100%;
+	}
+	.bg_img {
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+	.bg_img img{
+		width: 100%;
+	}
+	.shopIcon_span span{
+		font-size: 100px;
+	}
+
+}
+@media(min-width: 1200px){
+	.col-lg-1-5{
+		width: 20%;
+		float: left;
+	}
+	.shopIcon{
+		width: 100%;
+	}
+	.shopIcon .shopIcon_span{
+		width: 100%;
+	}
+	.bg_img img{
+		width: 100%;
+	}
+	.bg_img {
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+}
+/*.text-center{
+	border:1px solid #333;
+}*/

@@ -1,0 +1,113 @@
+.bg1{
+	padding: 0;
+	border: none;
+}
+.bgBox{
+	margin: 0;
+}
+/*content*/
+.c_top h2{
+	font-size: 26px;
+	font-weight: bold;
+	margin: 100px 0 20px;
+	color: #e1251b;
+	position: relative;
+}
+.c_top h3{
+	font-size: 24px;
+	margin-bottom: 40px;
+	color: #e1251b;
+}
+.c_search{
+	/*height: 80px;*/
+	background-color: #f6f6f6;
+}
+.c_searchBox{
+	width: 67%;
+	/*height: 50px;*/
+	margin: 10px auto;
+	text-align: center;
+	
+}
+.c_searchBox div,p{
+	display: inline-block;
+}
+.c_searchBox p{
+	font-size: 24px;
+	color: gray;
+}
+.inp input{
+	margin-left: 5px;
+	border: none;
+	width: 200px;
+	height: 45px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	outline: none;
+	font-size: 16px;
+}
+.c_searchBox button{
+	width: 45px;
+	height: 45px;
+	font-size: 22px;
+	border: none;
+	outline: none;
+}
+.btn1{
+	background-color: gray;
+	color: #e1251b;
+	float: right;
+}
+.btn2{
+	background-color: #e1251b;
+	color: #fff;
+	/*float: right;*/
+	margin-left: 15px;
+
+}
+.imgBox{
+	width: 100%;
+	cursor: pointer;
+}
+.imgBox img{
+	width: 100%;
+}
+.inputBox{
+	display: inline-block;
+}
+@media(max-width: 768px){
+	.inp input{
+		width: 170px;
+	}
+	.c_searchBox{
+	width:80%;
+	}
+}
+@media(min-width: 768px){
+	.inputBox{
+		display: block;
+		width: 100%;
+	}
+	.inp input{
+		width: 375px;
+	}
+}
+@media(min-width: 992px){
+	.inputBox{
+		display: block;
+		width: 100%;
+	}
+	.inp input{
+		width: 400px;
+	}
+}
+@media(min-width: 1200px){
+	.inputBox{
+		display: inline-block;
+		width: 68%;
+		
+	}
+	.inp input{
+		width: 400px;
+	}
+}

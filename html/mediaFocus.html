@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>媒体聚焦</title>
+	<link rel='icon' href='../images/favicon.ico' mce_href='../images/favicon.ico' type='image/x-icon'>
+	<link rel='shortcut icon' href='../images/favicon.ico' mce_href='../images/favicon.ico' type='image/x-icon'>
+	<script src="../js/jquery-1.11.1.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/public.js"></script>
+	<script src="../js/mediaFocus.js"></script>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/cssreset.css">
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/mediaFocus.css">
+	<link rel="stylesheet" href="../css/iconfont1.css">
+	<link rel="stylesheet" href="../css/iconfont2.css">
+	<link rel="stylesheet" href="../css/iconfont3.css">
+	<link rel="stylesheet" href="../css/iconfont4.css">
+	<link rel="stylesheet" href="../css/iconfont5.css">
+	<script src="../js/wow.min.js"></script>
+	<link rel="stylesheet" href="../css/animate.css">
+	<script>
+		$(function(){
+			$('.c_wrap').addClass('wow fadeInUp');
+			new WOW().init();
+		})
+	</script>
+</head>
+<body>
+	<!-- header -->
+	<div class="header ">
+		<nav class="navbar navbar-default container kris_wrap pub">
+		  <div class="container-fluid pub">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header ">
+		      <button type="button" class="navbar-toggle collapsed krisBtn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="../index.html">
+		      	<img src="../images/logo.svg" alt="" class="logo">
+		      </a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse kris_nav" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav kris_navLeft">
+		        <li class="nav_li">
+		        	<a href="#" class="red navA">关于我们</a>
+		        	<div class="aboutMenu nav_menu">
+		        		<div>
+		        			<img src="../images/submenu_line.svg" alt="" class="menuItem_icon">
+		        		</div>
+		        		<ul class="aboutMenu_ul nav_menu_ul">
+		        			<li><a href="brandIntroCourse.html" class="menuItem first_a">品牌介绍</a></li>
+		        			<li><a href="brandIntroCourse.html" class="menuItem">品牌历程</a></li>
+		        			<li><a href="brandConceptStory.html" class="menuItem">品牌理念</a></li>
+		        			<li><a href="brandConceptStory.html" class="menuItem last_a">品牌故事</a></li>
+		        		</ul>
+		        	</div>
+		        </li>
+		        <li class="nav_li">
+		        	<a href="#" class="red">新闻中心</a>
+		        	<div class="newsMenu nav_menu">
+		        		<div>
+		        			<img src="../images/submenu_line.svg" alt="" class="menuItem_icon">
+		        		</div>
+		        		<ul class="newsMenu_ul nav_menu_ul">
+		        			<li><a href="mediaFocus.html" class="menuItem first_a">媒体聚焦</a></li>
+		        			<li><a href="https://v.qq.com/x/page/f0919i81zgl.html" class="menuItem last_a">品牌视频</a></li>
+		        		</ul>
+		        	</div>
+		        </li>
+		        <li class="nav_li">
+		        	<a href="#" class="red">零食王国</a>
+		        	<div class="snacksMenu nav_menu">
+		        		<div>
+		        			<img src="../images/submenu_line.svg" alt="" class="menuItem_icon">
+		        		</div>
+		        		<ul class="snacksMenu_ul nav_menu_ul">
+		        			<li><a href="#" class="menuItem first_a">产品分类</a></li>
+		        			<li><a href="onlineMall.html" class="menuItem">线上商城</a></li>
+		        			<li><a href="nationalStores.html" class="menuItem last_a">全国门店</a></li>
+		        		</ul>
+		        	</div>
+		        </li>
+		        <li>
+		        	<a href="vip.html" class="red">VIP</a>
+		        </li>
+		        <li class="nav_li">
+		        	<a href="#" class="red">联系我们</a>
+		        	<div class="contactMenu nav_menu">
+		        		<div>
+		        			<img src="../images/submenu_line.svg" alt="" class="menuItem_icon">
+		        		</div>
+		        		<ul class="contactMenu_ul nav_menu_ul">
+		        			<li><a href="join.html" class="menuItem first_a">加盟专区</a></li>
+		        			<li><a href="#" class="menuItem last_a">招聘专区</a></li>
+		        		</ul>
+		        	</div>
+		        </li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right kris_navRight">
+		        <li>
+		        	<a href="#" class="red cn">CN</a>/
+		        	<a href="#" class="en">EN</a>
+		        </li>
+		        <li class="nav_li follow_li">
+		        	<a href="#" class="follow">Follow&nbsp;us</a>
+		        	<div class="followMenu nav_menu">
+		        		<ul>
+		        			<li>
+		        				<a href="" class="bestore menuItem first_a"><i class="glyphicon glyphicon-user"></i></a>
+		        			</li>
+		        			<li>
+		        				<a href="" class="weibo menuItem"><i class="glyphicon glyphicon-envelope"></i></a>
+		        			</li>
+		        			<li class="bestore_code_li">
+		        				<a href="" class="wechat menuItem last_a"><i class="glyphicon glyphicon-cloud"></i>
+		        					<img src="../images/qrcode_weixin.jpg" alt="" class="bestore_code"></a>
+		        			</li>
+		        		</ul>
+		        	</div>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</div>
+
+	<!-- content -->
+	<div class="container content">
+		<div class="row ">
+		  <div class="col-sm-12 col-md-12 ">
+		    <div class="  thumbnail c_top">
+		      <div class="caption content_box text-center">
+		      	<h2>MEDIA FOCUS</h2>
+		        <h3>媒体聚焦</h3>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		  <!-- main -->
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap wow fadeInUp">
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>08.19</p><span>2019</span>
+		      		</div>
+		      		<h3>联手敦煌博物馆，良品铺子国潮礼盒成中秋“黑马”</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/12.png" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.2s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>08.17</p><span>2019</span>
+		      		</div>
+		      		<h3>莫高窟前见证：良品铺子爱心助力敦煌石窟保护</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/13.png" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.4s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>08.03</p><span>2019</span>
+		      		</div>
+		      		<h3>良品铺子“保护千年敦煌”中秋节捐赠事项的活动细则</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/14.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.6s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>07.06</p><span>2019</span>
+		      		</div>
+		      		<h3>一场提前五年的准备：良品铺子为什么不做“优衣库”</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/15.png" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap">
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>07.06</p><span>2019</span>
+		      		</div>
+		      		<h3>良品铺子连夺两大世界级金奖 中国味道擦亮国际名片</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/16.png" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.2s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>07.06</p><span>2019</span>
+		      		</div>
+		      		<h3>良品铺子签约顶级“美味顾问团” 推动中国味道出海</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/17.png" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.4s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>07.06</p><span>2019</span>
+		      		</div>
+		      		<h3>良品铺子荣获“顶级美味大奖”三星奖 中国零食获米其林主厨点赞</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/18.png" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.6s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>07.05</p><span>2019</span>
+		      		</div>
+		      		<h3>中国零食如何打动欧美市场“高甜”味蕾？良品铺子出海记！</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/19.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap">
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>07.05</p><span>2019</span>
+		      		</div>
+		      		<h3>中国食品国际影响力，获奖产品仅占5%，良品铺子谋变连夺两个大奖</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/20.png" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.2s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>03.05</p><span>2019</span>
+		      		</div>
+		      		<h3>良品铺子的“局部战役”</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/21.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.4s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>01.08</p><span>2019</span>
+		      		</div>
+		      		<h3>良品铺子携手吴亦凡 高端零食战略引领行业升级</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/22.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.6s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>01.08</p><span>2019</span>
+		      		</div>
+		      		<h3>杨红春：良品铺子要成为消费者心智中高端零食的代名词</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/23.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap">
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>01.08</p><span>2019</span>
+		      		</div>
+		      		<h3>年货市场提前热 良品铺子抢下高端占位</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/24.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.2s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>11.20</p><span>2018</span>
+		      		</div>
+		      		<h3>在你等待0点抢购的时候，有个品牌4小时玩出200万+阅读量</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/25.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.4s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>11.17</p><span>2018</span>
+		      		</div>
+		      		<h3>一部手机搞定经营决策 阿里“看中国”嘉宾集体点赞良品铺子新零售</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/26.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.6s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>11.10</p><span>2018</span>
+		      		</div>
+		      		<h3>申请入驻 良品铺子员工双11前夜大聚餐：龙虾吃起，零食管够</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/27.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap">
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>10.07</p><span>2017</span>
+		      		</div>
+		      		<h3>告别快递哥 良品铺子门店可以喝着下午茶取包裹</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/28.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.2s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>10.10</p><span>2017</span>
+		      		</div>
+		      		<h3>零食企业与时间赛跑赢取“新鲜度”，自建基地供应坚果</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/30.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.4s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>10.08</p><span>2018</span>
+		      		</div>
+		      		<h3>海味零食品类将成下一个风口？</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/25.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.6s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>09.17</p><span>2018</span>
+		      		</div>
+		      		<h3>一颗新疆瓜子的河南故事！良品铺子供应链溯源，“五星级”瓜子有啥不一样</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/31.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap">
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>09.16</p><span>2018</span>
+		      		</div>
+		      		<h3>良品铺子海外又下一城，120万澳洲华人有口福了</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/32.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.2s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>08.29</p><span>2018</span>
+		      		</div>
+		      		<h3>摆脱同质化困局 良品铺子“焕新”谋变</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/25.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.4s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>08.27</p><span>2018</span>
+		      		</div>
+		      		<h3>良品铺子升级品牌形象，将全面布局海外市场</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/25.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.6s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>06.29</p><span>2018</span>
+		      		</div>
+		      		<h3>“噜辣杯”世界杯期间“C位出道”，良品铺子如何借大IP玩转新零售？</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/33.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap">
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>05.15</p><span>2018</span>
+		      		</div>
+		      		<h3>零食铺子还是科技达人？看良品铺子如何用大数据玩转新零售</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/34.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.2s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>04.24</p><span>2018</span>
+		      		</div>
+		      		<h3>新零售先锋良品铺子再次发力 联合小茗同学打造快闪店</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/35.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.4s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>04.10</p><span>2018</span>
+		      		</div>
+		      		<h3>良品铺子官方发布消息携手天猫 开启新零售下半场</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/36.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.6s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>04.06</p><span>2018</span>
+		      		</div>
+		      		<h3>新零售由“物”到“人”，看良品铺子怎么玩？</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/37.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap">
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>03.22</p><span>2018</span>
+		      		</div>
+		      		<h3>新零售风口 阿里为啥独独看上良品铺子？</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/38.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.2s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>02.01</p><span>2018</span>
+		      		</div>
+		      		<h3>恋爱先生》大热，良品铺子走心营销抢对风口！</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/39.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.4s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>01.12</p><span>2018</span>
+		      		</div>
+		      		<h3>智慧门店+大数据：良品铺子的全渠道共振</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/25.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.6s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>01.11</p><span>2018</span>
+		      		</div>
+		      		<h3>用数据盘活零食生意经 良品铺子欲借此敲开资本市场大门</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/25.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap">
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>01.08</p><span>2018</span>
+		      		</div>
+		      		<h3>良品铺子：2100家智慧门店共振新零售</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/40.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		   <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 c_wrap" data-wow-delay='0.2s'>
+		    <div class="thumbnail c_main">
+		      <div class="caption content_box">
+		      	<div class="details">
+		      		<div class="c_date">
+		      			<p>12.04</p><span>2017</span>
+		      		</div>
+		      		<h3>双11线下销售5000万，双12良品铺子再放大招</h3>
+		      	</div>
+		      	<div class="details_img">
+		      		<img src="../images/41.jpg" alt="">
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container footer_box">
+			<div class="footer_left">
+				<div class="footer_leftBox">
+					<a href="" class="iconfont icon-tianmao ft_icon1"></a>
+					<a href="" class="iconfont icon-jingdong ft_icon2"></a>
+					<a href="" class="iconfont icon-liangpinpuzi ft_icon3"></a>
+					<div class="ft_wechatCode">
+						<a href="" class="iconfont icon-Fill  ft_icon4"></a>
+						<div class="fl_img1">
+							<img src="../images/qrcode_weixin.jpg" alt="">
+						</div>
+					</div>
+					<div class="ft_weiboCode">
+						<a href="" class="iconfont icon-weibo  ft_icon5"></a>
+						<div class="fl_img2">
+							<img src="../images/qrcode_sina.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_center">
+				<div class="footer_centerBox">
+					<div class="footer_centerBox1">
+							©️ 2019 湖北良品铺子食品工业有限公司&nbsp;|<a href="">鄂ICP备09021577号&nbsp;</a>|
+					</div>
+					<div class="footer_icon footer_centerBox2">
+						<a href="" class="fc_a"><span class="fc_icon"></span>鄂公网安备 42011202001521号</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer_right">
+				<div class="footer_right_aBox">
+					<a href="" class="footer_right_a" onclick="return false">Back&nbsp;to&nbsp;top&nbsp;<span class="glyphicon glyphicon-chevron-u">></span></a>
+				</div>	
+			</div>
+		</div>
+	</div>
+</body>
+</html>
